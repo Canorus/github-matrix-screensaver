@@ -34,7 +34,7 @@
             console.log("fetching: %s", fetchSize);
 
             $.ajax({
-                url: 'https://github-matrix.herokuapp.com/fetch',
+                url: 'https://github-matrix.canor.kr/fetch',
                 cache: false,
                 data: {fetchSize: fetchSize}
             }).done(function (result) {
